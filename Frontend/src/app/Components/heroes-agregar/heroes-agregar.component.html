@@ -1,0 +1,10 @@
+<div class="heroe-detalle">
+    <h2 class="detalle-titulo">Nuevo Heroe</h2>
+    <label for="heroeTitulo">Nombre:</label>
+    <input id="heroeTitulo" class= "card-input" type="text" placeholder="Nombre" [(ngModel)]="heroe.nombre">
+    <label for="heroeImg">Imagen:</label>
+    <input id="heroeTitulo" class= "card-input" type="text" placeholder="Url de la img" [(ngModel)]="heroe.imagen">
+    <label for="heroeDescripcion">Descripción:</label>
+    <textarea name="heroeDescripcion" id="heroeDescripcion" cols="30" rows="10" [(ngModel)]="heroe.descripcion"></textarea>
+    <button class="button-regresar" (click)="agregar()">Agregar</button>
+</div>

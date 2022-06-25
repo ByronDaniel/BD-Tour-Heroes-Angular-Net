@@ -9,14 +9,15 @@ import { HeroesMensajesComponent } from './Components/heroes-mensajes/heroes-men
 import { AppRoutingModule } from './app-routing.module';
 import { HeroesTopComponent } from './Components/heroes-top/heroes-top.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { HeroesAgregarComponent } from './Components/heroes-agregar/heroes-agregar.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroesDetalleComponent,
     HeroesMensajesComponent,
-    HeroesTopComponent
+    HeroesTopComponent,
+    HeroesAgregarComponent
   ],
   imports: [
     BrowserModule,

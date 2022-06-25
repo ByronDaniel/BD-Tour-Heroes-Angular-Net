@@ -6,6 +6,5 @@
     <input id="heroeTitulo" class= "card-input" type="text" placeholder="Url de la img" [(ngModel)]="heroeSeleccionado.imagen">
     <label for="heroeDescripcion">Descripción:</label>
     <textarea name="heroeDescripcion" id="heroeDescripcion" cols="30" rows="10" [(ngModel)]="heroeSeleccionado.descripcion"></textarea>
-    <button class="button-regresar" (click)="goBack()">Regresar</button>
-
+    <button class="button-regresar" (click)="editar(heroeSeleccionado)">Editar</button>
 </div>

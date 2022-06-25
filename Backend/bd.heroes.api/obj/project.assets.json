@@ -2123,11 +2123,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ByronDaniel\\Documents\\BD\\bd.heroes.api\\bd.heroes.api\\bd.heroes.api.csproj",
+      "projectUniqueName": "C:\\Users\\ByronDaniel\\Documents\\BD\\TourHeroesWithApi\\Backend\\bd.heroes.api\\bd.heroes.api.csproj",
       "projectName": "bd.heroes.api",
-      "projectPath": "C:\\Users\\ByronDaniel\\Documents\\BD\\bd.heroes.api\\bd.heroes.api\\bd.heroes.api.csproj",
+      "projectPath": "C:\\Users\\ByronDaniel\\Documents\\BD\\TourHeroesWithApi\\Backend\\bd.heroes.api\\bd.heroes.api.csproj",
       "packagesPath": "C:\\Users\\ByronDaniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ByronDaniel\\Documents\\BD\\bd.heroes.api\\bd.heroes.api\\obj\\",
+      "outputPath": "C:\\Users\\ByronDaniel\\Documents\\BD\\TourHeroesWithApi\\Backend\\bd.heroes.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ByronDaniel\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -58,6 +58,7 @@ namespace bd.heroes.api.Controllers
             try
             {
                 _response.Result = await _heroeService.PostHeroe(heroeDto);
+                _response.DisplayMessage = "Heroe Agregado Con Exito!";
                 return Ok(_response);
             }
             catch (Exception ex)

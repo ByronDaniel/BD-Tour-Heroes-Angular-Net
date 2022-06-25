@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rMWs6R67mHsrUGMfK958d6Ss1DWa+fIWQeAXrqxM3hniKYAbK9UHiZvHbVhlR121SoeChcY2ysSjmJI/htZa4A==",
+  "dgSpecHash": "dn06rB5R87Y2s4dlqOvbYj6ehlKdpkrpV9nYUHdaxTbkpJGS2R4KsQZEPo8kcMUCnXR/ePFX/0+uMpwF0sHRhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ByronDaniel\\Documents\\BD\\bd.heroes.api\\bd.heroes.api\\bd.heroes.api.csproj",
+  "projectFilePath": "C:\\Users\\ByronDaniel\\Documents\\BD\\TourHeroesWithApi\\Backend\\bd.heroes.api\\bd.heroes.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ByronDaniel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\ByronDaniel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
