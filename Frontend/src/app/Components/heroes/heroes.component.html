@@ -1,0 +1,13 @@
+<div class="card-grid">
+    <div class="card" *ngFor="let heroe of heroes" routerLink="/heroes/detalle/{{heroe.id}}" [class.heroeSeleccionado]="heroe === heroeSeleccionado">
+        <div class="card-img-content">
+            <span class="card-id">{{heroe.id}}</span>
+            <img class="card-img" src="{{heroe.imagen}}" alt="img-{{heroe.nombre}}" onerror="this.src='https://www.giulianisgrupo.com/wp-content/uploads/2018/05/nodisponible.png'">
+            <div class="card-content">
+                <h2 class="card-titulo">{{heroe.nombre | uppercase}}</h2>
+                <p class="card-descripcion">{{heroe.descripcion}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<app-heroes-mensajes></app-heroes-mensajes>

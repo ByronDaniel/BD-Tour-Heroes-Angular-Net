@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(205, 3, 3);
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}

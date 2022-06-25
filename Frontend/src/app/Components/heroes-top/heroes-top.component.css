@@ -1,0 +1,63 @@
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+    margin-top: 10px;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.644);
+    width: 100%;
+}
+
+.card-titulo{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+
+.card-img{
+    width: 400px;
+    position: relative;
+    filter: grayscale();
+    transition: 0.7s;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.card:hover .card-img{
+    filter: none;
+}
+
+.heroeSeleccionado .card-img{
+    filter: none;
+}
+.card-descripcion{
+    text-align: center;
+    font-size: 0.7rem;
+}
+.card-img-content{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-id{
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    top: 10px;
+}

@@ -1,0 +1,15 @@
+<nav class="nav-heroes">
+  <h1 class="nav-titulo">{{titulo}}</h1>
+  <ul class="nav-ul">
+    <li class="nav-li" routerLinkActive="nav-seleccionado">
+      <a class="nav-link" routerLink="/heroes-top">Top de Heroes</a>
+    </li>
+    <li class="nav-li" routerLinkActive="nav-seleccionado">
+      <a class="nav-link" routerLink="/heroes">Ver Heroes</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+  <app-heroes-mensajes></app-heroes-mensajes>
+</div>

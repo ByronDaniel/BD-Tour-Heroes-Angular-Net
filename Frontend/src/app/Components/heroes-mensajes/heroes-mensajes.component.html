@@ -1,0 +1,9 @@
+<div class="mensaje-card" *ngIf="mensajeService.mensajes.length > 0">
+    <h3>Servicio de Mensajes</h3> 
+    <ul class="list-ul">
+        <li class="list-li" *ngFor="let mensaje of mensajeService.mensajes">
+            {{mensaje}}
+        </li>
+    </ul>
+    <button class="button-limpiar" (click)="mensajeService.Limpiar()">Limpiar</button>
+</div>
